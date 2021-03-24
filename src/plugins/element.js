@@ -18,6 +18,8 @@ import {
   Table,
   TableColumn,
   Pagination,
+  Message,
+  MessageBox,
 } from "element-ui";
 
 Vue.use(Button);
@@ -38,3 +40,6 @@ Vue.use(Col);
 Vue.use(Table);
 Vue.use(TableColumn);
 Vue.use(Pagination);
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+Vue.prototype.$message = Message

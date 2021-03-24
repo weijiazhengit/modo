@@ -3,51 +3,53 @@
     <div class="serach_tabs">
       <el-tabs type="border-card">
         <el-tab-pane label="基本查询">
-          <el-form :inline="true" :model="formInline" class="demo-form-inline">
-            <el-row type="flex" justify="center">
+          <el-form :inline="true"
+                   :model="formInline"
+                   class="demo-form-inline">
+            <el-row type="flex"
+                    justify="center">
               <el-col :span="6">
-                <el-form-item label="债务人" label-width="68px">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                <el-form-item label="债务人"
+                              label-width="68px">
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="客户编号">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="证件号码">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
             </el-row>
-            <el-row type="flex" justify="center">
+            <el-row type="flex"
+                    justify="center">
               <el-col :span="6">
                 <el-form-item label="手机号码">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="银行卡号">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6"> </el-col>
             </el-row>
-            <el-row type="flex" justify="end">
+            <el-row type="flex"
+                    justify="end">
               <el-col :span="6">
                 <el-form-item>
-                  <el-button type="primary" @click="onSubmit">查询</el-button>
+                  <el-button type="primary"
+                             @click="onSubmit">查询</el-button>
                   <el-button @click="onSubmit">清空</el-button>
                 </el-form-item>
               </el-col>
@@ -55,51 +57,53 @@
           </el-form>
         </el-tab-pane>
         <el-tab-pane label="个人查询">
-          <el-form :inline="true" :model="formInline" class="demo-form-inline">
-            <el-row type="flex" justify="center">
+          <el-form :inline="true"
+                   :model="formInline"
+                   class="demo-form-inline">
+            <el-row type="flex"
+                    justify="center">
               <el-col :span="6">
-                <el-form-item label="债务人" label-width="68px">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                <el-form-item label="债务人"
+                              label-width="68px">
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="客户编号">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="证件号码">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
             </el-row>
-            <el-row type="flex" justify="center">
+            <el-row type="flex"
+                    justify="center">
               <el-col :span="6">
                 <el-form-item label="手机号码">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6">
                 <el-form-item label="银行卡号">
-                  <el-input
-                    v-model="formInline.user"
-                    placeholder=""
-                  ></el-input> </el-form-item
-              ></el-col>
+                  <el-input v-model="formInline.user"
+                            placeholder=""></el-input>
+                </el-form-item>
+              </el-col>
               <el-col :span="6"> </el-col>
             </el-row>
-            <el-row type="flex" justify="end">
+            <el-row type="flex"
+                    justify="end">
               <el-col :span="6">
                 <el-form-item>
-                  <el-button type="primary" @click="onSubmit">查询</el-button>
+                  <el-button type="primary"
+                             @click="onSubmit">查询</el-button>
                   <el-button @click="onSubmit">清空</el-button>
                 </el-form-item>
               </el-col>
@@ -109,124 +113,138 @@
       </el-tabs>
     </div>
     <div class="table_tabs">
-      <el-tabs type="border-card" v-model="activeName" @tab-click="tabChange">
-        <el-tab-pane label="所有案件" name="first" :key="'first'">
-          <el-table
-            v-if="isFirst"
-            :data="
+      <el-tabs type="border-card"
+               v-model="activeName"
+               @tab-click="tabChange">
+        <el-tab-pane label="所有案件"
+                     name="first"
+                     :key="'first'">
+          <el-table v-if="isFirst"
+                    :data="
               tableData.slice((currpage - 1) * pageSize, currpage * pageSize)
             "
-            style="width: 100%"
-            :height="defaultHeight.height"
-          >
-            <el-table-column prop="date" label="日期"> </el-table-column>
-            <el-table-column prop="name" label="姓名"> </el-table-column>
-            <el-table-column prop="province" label="省份"> </el-table-column>
-            <el-table-column prop="city" label="市区"> </el-table-column>
-            <el-table-column prop="address" label="地址"> </el-table-column>
-            <el-table-column prop="zip" label="邮编"> </el-table-column>
-            <el-table-column label="操作" width="120">
+                    ref="tableData"
+                    style="width: 100%"
+                    :height="defaultHeight.height">
+            <el-table-column prop="date"
+                             label="日期"
+                             sortable>
+            </el-table-column>
+            <el-table-column prop="name"
+                             label="姓名"> </el-table-column>
+            <el-table-column prop="province"
+                             label="省份"> </el-table-column>
+            <el-table-column prop="city"
+                             label="市区"> </el-table-column>
+            <el-table-column prop="address"
+                             label="地址"> </el-table-column>
+            <el-table-column prop="zip"
+                             label="邮编"> </el-table-column>
+
+            <el-table-column label="操作"
+                             width="120">
               <template slot-scope="scope">
-                <el-button
-                  @click.native.prevent="deleteRow(scope.$index, tableData)"
-                  type="text"
-                  size="small"
-                >
-                  移除
-                </el-button>
+                <el-button type="danger"
+                           size="small"
+                           @click="flaw_del(scope.row, scope.$index)">删除</el-button>
               </template>
             </el-table-column>
           </el-table>
           <div class="pagination">
-            <el-pagination
-              @size-change="handleSizeChange"
-              @current-change="handleCurrentChange"
-              :current-page="currpage"
-              :page-sizes="[2, 4, 6, 8]"
-              :page-size="pageSize"
-              layout=" prev, pager, next,total, sizes, jumper"
-              :total="tableData.length"
-            >
+            <el-pagination @size-change="handleSizeChange"
+                           @current-change="handleCurrentChange"
+                           :current-page="currpage"
+                           :page-sizes="[2, 4, 6, 8]"
+                           :page-size="pageSize"
+                           layout=" prev, pager, next,total, sizes, jumper"
+                           :total="tableData.length">
             </el-pagination>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="新进案件" name="second" :key="'second'">
-          <el-table
-            v-if="isSecond"
-            :data="
+        <el-tab-pane label="新进案件"
+                     name="second"
+                     :key="'second'">
+          <el-table v-if="isSecond"
+                    :data="
               tableData.slice((currpage - 1) * pageSize, currpage * pageSize)
             "
-            style="width: 100%"
-            :height="defaultHeight.height"
-          >
-            <el-table-column prop="date" label="日期"> </el-table-column>
-            <el-table-column prop="name" label="姓名"> </el-table-column>
-            <el-table-column prop="province" label="省份"> </el-table-column>
-            <el-table-column prop="city" label="市区"> </el-table-column>
-            <el-table-column prop="address" label="地址"> </el-table-column>
-            <el-table-column prop="zip" label="邮编"> </el-table-column>
-            <el-table-column label="操作" width="120">
+                    style="width: 100%"
+                    :height="defaultHeight.height">
+            <el-table-column prop="date"
+                             label="日期"> </el-table-column>
+            <el-table-column prop="name"
+                             label="姓名"> </el-table-column>
+            <el-table-column prop="province"
+                             label="省份"> </el-table-column>
+            <el-table-column prop="city"
+                             label="市区"> </el-table-column>
+            <el-table-column prop="address"
+                             label="地址"> </el-table-column>
+            <el-table-column prop="zip"
+                             label="邮编"> </el-table-column>
+            <el-table-column label="操作"
+                             width="120">
               <template slot-scope="scope">
-                <el-button
-                  @click.native.prevent="deleteRow(scope.$index, tableData)"
-                  type="text"
-                  size="small"
-                >
+                <el-button @click.native.prevent="deleteRow(scope.$index, tableData)"
+                           type="text"
+                           size="small">
                   移除
                 </el-button>
               </template>
             </el-table-column>
           </el-table>
           <div class="pagination">
-            <el-pagination
-              @size-change="handleSizeChange"
-              @current-change="handleCurrentChange"
-              :current-page="currpage"
-              :page-sizes="[2, 4, 6, 8]"
-              :page-size="pageSize"
-              layout=" prev, pager, next,total, sizes, jumper"
-              :total="tableData.length"
-            >
+            <el-pagination @size-change="handleSizeChange"
+                           @current-change="handleCurrentChange"
+                           :current-page="currpage"
+                           :page-sizes="[2, 4, 6, 8]"
+                           :page-size="pageSize"
+                           layout=" prev, pager, next,total, sizes, jumper"
+                           :total="tableData.length">
             </el-pagination>
           </div>
         </el-tab-pane>
-        <el-tab-pane label="新转案件" name="thirdly" :key="'thirdly'">
-          <el-table
-            v-if="isthirdly"
-            :data="
+        <el-tab-pane label="文件链接"
+                     name="thirdly"
+                     :key="'thirdly'">
+          <el-table v-if="isthirdly"
+                    :data="
               tableData.slice((currpage - 1) * pageSize, currpage * pageSize)
             "
-            style="width: 100%"
-            :height="defaultHeight.height"
-          >
-            <el-table-column prop="date" label="日期"> </el-table-column>
-            <el-table-column prop="name" label="姓名"> </el-table-column>
-            <el-table-column prop="province" label="省份"> </el-table-column>
-            <el-table-column prop="city" label="市区"> </el-table-column>
-            <el-table-column prop="address" label="地址"> </el-table-column>
-            <el-table-column prop="zip" label="邮编"> </el-table-column>
-            <el-table-column label="操作" width="120">
+                    style="width: 100%"
+                    :height="defaultHeight.height">
+            <el-table-column prop="date"
+                             label="日期"> </el-table-column>
+            <el-table-column prop="name"
+                             label="姓名"> </el-table-column>
+            <el-table-column prop="leixing"
+                             label="类型"> </el-table-column>
+            <el-table-column prop="lianjie"
+                             label="链接">
               <template slot-scope="scope">
-                <el-button
-                  @click.native.prevent="deleteRow(scope.$index, tableData)"
-                  type="text"
-                  size="small"
-                >
-                  移除
-                </el-button>
+                <div>
+                  <a :href="scope.row.lianjie"
+                     style="color:#000;">{{scope.row.lianjie}}</a>
+                </div>
+              </template>
+            </el-table-column>
+            <el-table-column label="操作"
+                             width="120">
+              <template slot-scope="scope">
+                <el-button type="danger"
+                           size="small"
+                           @click="flaw_del(scope.row, scope.$index)">删除</el-button>
               </template>
             </el-table-column>
           </el-table>
           <div class="pagination">
-            <el-pagination
-              @size-change="handleSizeChange"
-              @current-change="handleCurrentChange"
-              :current-page="currpage"
-              :page-sizes="[2, 4, 6, 8]"
-              :page-size="pageSize"
-              layout=" prev, pager, next,total, sizes, jumper"
-              :total="tableData.length"
-            >
+            <el-pagination @size-change="handleSizeChange"
+                           @current-change="handleCurrentChange"
+                           :current-page="currpage"
+                           :page-sizes="[2, 4, 6, 8]"
+                           :page-size="pageSize"
+                           layout=" prev, pager, next,total, sizes, jumper"
+                           :total="tableData.length">
             </el-pagination>
           </div>
         </el-tab-pane>
@@ -237,7 +255,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       defaultHeight: {
         height: "",
@@ -263,6 +281,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http:////121.5.233.184:616"
         },
         {
           in: 1,
@@ -272,6 +293,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 1,
@@ -281,6 +305,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 1,
@@ -290,6 +317,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 1,
@@ -299,6 +329,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 1,
@@ -308,6 +341,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 1,
@@ -317,6 +353,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新进案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -326,6 +365,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -335,6 +377,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -344,6 +389,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -353,6 +401,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -362,6 +413,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -371,6 +425,9 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
         {
           in: 2,
@@ -380,16 +437,19 @@ export default {
           city: "普陀区",
           address: "上海市普陀区金沙江路 1518 弄",
           zip: 200333,
+          casetype: "新转案件",
+          leixing: "其他",
+          lianjie: "http://www.baidu.com"
         },
       ],
     };
   },
   methods: {
     // 高度自适应
-    height() {
+    height () {
       this.defaultHeight.height = window.innerHeight - 500 + "px";
     },
-    tabChange(tab) {
+    tabChange (tab) {
       this.$nextTick(() => {
         if (tab.name === "first") {
           this.isFirst = true;
@@ -406,30 +466,37 @@ export default {
         }
       });
     },
-    deleteRow(index, rows) {
+    deleteRow (index, rows) {
       rows.splice(index, 1);
     },
-    onSubmit() {
+    onSubmit () {
       console.log(123);
     },
-    handleCurrentChange(cpage) {
+    handleCurrentChange (cpage) {
       this.currpage = cpage;
       console.log(this.currpage);
     },
-    handleSizeChange(psize) {
+    handleSizeChange (psize) {
       this.pageSize = psize;
       console.log(this.pageSize);
     },
-    handleSelectionChange(val) {
+    handleSelectionChange (val) {
       console.log(val);
+    },
+    // 删除数据
+    flaw_del (item, index) {
+      this.$confirm("此操作会永久删除该数据，是否继续？").then(() => {
+        console.log("删除成功");
+        this.tableData.splice(index, 1);
+      });
     },
   },
   computed: {
-    num: function() {
+    num: function () {
       return this.tableData.length;
     },
     // eslint-disable-next-line vue/return-in-computed-property
-    one: function() {
+    one: function () {
       this.tableData.forEach((item) => {
         if (item.in == 1) {
           return item;
@@ -437,10 +504,10 @@ export default {
       });
     },
   },
-  created() {
+  created () {
     window.addEventListener("resize", this.height());
   },
-  destroyed() {
+  destroyed () {
     window.removeEventListener("resize", this.height());
   },
 };
